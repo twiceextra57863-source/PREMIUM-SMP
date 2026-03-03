@@ -1,0 +1,78 @@
+# ==========================================
+#         SMPGenesis Configuration
+# ==========================================
+
+smp:
+  auto-start: false
+  timer-duration: 7200 # In seconds (2 hours)
+
+grace:
+  enabled: true
+  duration: 900 # In seconds (15 minutes)
+
+world-border:
+  enabled: true
+  world: world
+  start-size: 5000
+  end-size: 1000
+  shrink-time: 1800 # In seconds (30 minutes)
+
+knockback:
+  horizontal: 1.2
+  vertical: 0.4
+
+particles:
+  type: ASH
+  amount: 20
+
+first-join-protection:
+  enabled: true
+  duration: 600 # In seconds (10 minutes)
+
+starter-kit:
+  enabled: true
+  items:
+    - type: IRON_SWORD
+      name: "&bStarter Sword"
+      lore:
+        - "&7A gift to help you survive."
+      enchants:
+        SHARPNESS: 1
+    - type: BREAD
+      amount: 16
+
+# ==========================================
+#         10 Extra Features Section
+# ==========================================
+
+extras:
+  discord-webhook:
+    enabled: false
+    url: "YOUR_WEBHOOK_URL_HERE"
+  timber:
+    enabled: true
+    limit: 128
+  spawner-silk-touch:
+    enabled: true
+  auto-broadcast:
+    enabled: true
+    interval: 600 # seconds
+    messages:
+      - "&e[Tip] &7Type &f/smp status &7to check the grace period!"
+      - "&e[Tip] &7Don't forget to claim your base!"
+  first-diamond-announcer:
+    enabled: true
+  sleep-percentage:
+    enabled: true
+    percentage: 20 # 20% of players needed to sleep
+  custom-motd:
+    enabled: true
+    waiting: "&b&lSMP Genesis &7- &eWaiting to Start..."
+    grace: "&b&lSMP Genesis &7- &aGrace Period Active!"
+    active: "&b&lSMP Genesis &7- &cLet the Games Begin!"
+  auto-recipe-unlocker:
+    enabled: true
+  playtime-tracker:
+    enabled: true
+  death-leaderboard:
+    enabled: true
