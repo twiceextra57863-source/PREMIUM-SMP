@@ -78,5 +78,15 @@
     "role": "ai",
     "content": "Generated 5 files for plugin",
     "timestamp": "2026-03-03T08:17:19.875Z"
+  },
+  {
+    "role": "user",
+    "content": "Error:  COMPILATION ERROR : \n[INFO] -------------------------------------------------------------\nError:  /home/runner/work/PREMIUM-SMP/PREMIUM-SMP/src/main/java/com/smpgenesis/SMPGenesis.java:[83,46] package utils does not exist\nError:  /home/runner/work/PREMIUM-SMP/PREMIUM-SMP/src/main/java/com/smpgenesis/listeners/PlayerListener.java:[29,59] incompatible types: java.util.Iterator<org.bukkit.inventory.Recipe> cannot be converted to java.util.Collection<org.bukkit.NamespacedKey>\n[INFO] 2 errors \n[INFO] -------------------------------------------------------------\n[INFO] ------------------------------------------------------------------------\n[INFO] BUILD FAILURE\n[INFO] ------------------------------------------------------------------------\n[INFO] Total time:  24.391 s\n[INFO] Finished at: 2026-03-03T08:18:13Z\n[INFO] ------------------------------------------------------------------------\nError:  Failed to execute goal org.apache.maven.plugins:maven-compiler-plugin:3.13.0:compile (default-compile) on project SMPGenesis: Compilation failure: Compilation failure: \nError:  /home/runner/work/PREMIUM-SMP/PREMIUM-SMP/src/main/java/com/smpgenesis/SMPGenesis.java:[83,46] package utils does not exist\nError:  /home/runner/work/PREMIUM-SMP/PREMIUM-SMP/src/main/java/com/smpgenesis/listeners/PlayerListener.java:[29,59] incompatible types: java.util.Iterator<org.bukkit.inventory.Recipe> cannot be converted to java.util.Collection<org.bukkit.NamespacedKey>\nError:  -> [Help 1]\nError:  \nError:  To see the full stack trace of the errors, re-run Maven with the -e switch.\nError:  Re-run Maven using the -X switch to enable full debug logging.\nError:  \nError:  For more information about the errors and possible solutions, please read the following articles:\nError:  [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoFailureException\nError: Process completed with exit code 1",
+    "timestamp": "2026-03-03T10:53:40.305Z"
+  },
+  {
+    "role": "ai",
+    "content": "Generated 5 files for plugin",
+    "timestamp": "2026-03-03T10:53:40.306Z"
   }
 ]
