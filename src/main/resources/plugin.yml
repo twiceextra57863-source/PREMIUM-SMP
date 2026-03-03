@@ -1,0 +1,23 @@
+name: SMPGenesis
+version: '${project.version}'
+main: com.smpgenesis.SMPGenesis
+api-version: '1.21'
+authors: [ FlameAI ]
+description: Professional SMP Start and Management Plugin
+
+commands:
+  smp:
+    description: Main command for SMPGenesis
+    usage: /smp <start|stop|timer|grace|border|reload|status>
+    permission: smp.admin
+
+permissions:
+  smp.admin:
+    description: Allows full access to SMP genesis commands
+    default: op
+  smp.start:
+    description: Allows starting the SMP
+    default: op
+  smp.reload:
+    description: Allows reloading the config
+    default: op
